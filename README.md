@@ -6,7 +6,7 @@ Custom Android app patches built with Morphe.
 
 <!-- Do not modify this section by hand. The release workflow generates it from patches-list.json. -->
 <!-- PATCHES_START EXPANDED -->
-> **[v1.0.0-dev.1](https://github.com/Ikuradachi/ikura-patches/releases/tag/v1.0.0-dev.1)**&nbsp;&nbsp;•&nbsp;&nbsp;`dev`&nbsp;&nbsp;•&nbsp;&nbsp;0 patches total
+> **[v1.0.0](https://github.com/Ikuradachi/ikura-patches/releases/tag/v1.0.0)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;0 patches total
 <!-- PATCHES_END -->
 
 ## Usage
