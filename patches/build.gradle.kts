@@ -1,14 +1,13 @@
-group = "app.template"
+group = "app.ikura"
 
 patches {
-    // TODO: Update this section with your project details.
     about {
-        name = "UserXYZ Patches"
-        description = "Patches for apps I like"
-        source = "git@github.com:UserXYZ/morphe-patches.git"
-        author = "Awesome dev"
-        contact = "na"
-        website = "na"
+        name = "Ikura Patches"
+        description = "Custom Android app patches"
+        source = "https://github.com/Ikuradachi/ikura-patches"
+        author = "Ikura"
+        contact = "https://github.com/Ikuradachi/ikura-patches/issues"
+        website = "https://github.com/Ikuradachi/ikura-patches"
         license = "GPLv3"
     }
 }
