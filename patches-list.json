@@ -1,5 +1,84 @@
 {
   "NOTE": "Do NOT manually edit this file. This file is automatically updated when semantic release (release.yml) runs. Manually editing this file can break your releases and break third party tools that use this file.",
-  "version": "1.0.0",
-  "patches": []
+  "version": "1.0.1-dev.1",
+  "patches": [
+    {
+      "name": "Enable web browser",
+      "description": "Enables the built-in web browser regardless of remote customer configuration.",
+      "default": true,
+      "dependencies": [],
+      "compatiblePackages": [
+        {
+          "packageName": "net.easyconn.carman.wws",
+          "name": "CarbitLink-EasyConnection",
+          "description": null,
+          "apkFileType": "APK",
+          "appIconColor": "#168CFF",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "6.4.0",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    },
+    {
+      "name": "Remove brand restriction",
+      "description": "Allows connections to head units with any brand flavor or channel.",
+      "default": true,
+      "dependencies": [],
+      "compatiblePackages": [
+        {
+          "packageName": "net.easyconn.carman.wws",
+          "name": "CarbitLink-EasyConnection",
+          "description": null,
+          "apkFileType": "APK",
+          "appIconColor": "#168CFF",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "6.4.0",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    },
+    {
+      "name": "Unlock premium features",
+      "description": "Unlocks Mapbox, Google Maps, Spotify, and TwinSpace premium features.",
+      "default": true,
+      "dependencies": [],
+      "compatiblePackages": [
+        {
+          "packageName": "net.easyconn.carman.wws",
+          "name": "CarbitLink-EasyConnection",
+          "description": null,
+          "apkFileType": "APK",
+          "appIconColor": "#168CFF",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "6.4.0",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    }
+  ]
 }
