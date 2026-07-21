@@ -1,6 +1,7 @@
 package app.paresh.patches.carbitlink.premium
 
 import app.morphe.patcher.Fingerprint
+import app.morphe.patcher.methodCall
 import app.morphe.patcher.string
 import com.android.tools.smali.dexlib2.AccessFlags
 
@@ -39,5 +40,31 @@ object TwinSpaceVipFingerprint : Fingerprint(
     parameters = emptyList(),
     filters = listOf(
         string("twin_space_valid")
+    )
+)
+
+object VipSettingsVisibilityFingerprint : Fingerprint(
+    returnType = "V",
+    accessFlags = listOf(AccessFlags.PRIVATE),
+    parameters = emptyList(),
+    filters = listOf(
+        methodCall(
+            definingClass = "Lnet/easyconn/carman/utils/Config;",
+            name = "isSdk",
+            parameters = emptyList(),
+            returnType = "Z"
+        ),
+        methodCall(
+            definingClass = "Lnet/easyconn/carman/bridge/GoogleNaviBridge;",
+            name = "getImpl",
+            parameters = emptyList(),
+            returnType = "Lnet/easyconn/carman/bridge/GoogleNaviBridgeInterface;"
+        ),
+        methodCall(
+            definingClass = "Lnet/easyconn/carman/bridge/GoogleNaviBridgeInterface;",
+            name = "isGoogleNaviVisible",
+            parameters = emptyList(),
+            returnType = "Z"
+        )
     )
 )
