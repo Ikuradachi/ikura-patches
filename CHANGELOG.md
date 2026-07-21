@@ -1,3 +1,9 @@
+## [1.0.1-dev.2](https://github.com/Ikuradachi/ikura-patches/compare/v1.0.1-dev.1...v1.0.1-dev.2) (2026-07-21)
+
+### 🐛 Bug Fixes
+
+* show VIP settings item ([b3b62d7](https://github.com/Ikuradachi/ikura-patches/commit/b3b62d77ffd40f4fdfc6e3d13484acde71b16a55))
+
 ## [1.0.1-dev.1](https://github.com/Ikuradachi/ikura-patches/compare/v1.0.0...v1.0.1-dev.1) (2026-07-21)
 
 ### 🐛 Bug Fixes
