@@ -62,6 +62,12 @@
       }
     ],
     [
+      "@semantic-release/exec",
+      {
+        "prepareCmd": "sleep 5"
+      }
+    ],
+    [
       "@semantic-release/github",
       {
         "assets": [
